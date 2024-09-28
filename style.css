@@ -1,0 +1,46 @@
+body{
+    background-image: url(https://cdn.vectorstock.com/i/1000v/06/59/abstract-matrix-numbers-background-vector-21460659.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+
+.container{
+   text-align: center;
+   border: 1px solid black;
+   background-color: gray;
+   position: relative;
+   top: 30px;
+   width: 300px;
+   border-radius: 30px;
+   font-size: large;
+}
+#boxes3{
+    /* border: 1px solid black; */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+}
+
+#input_from input{
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;text-align: center;
+    font-size: large;
+}
+
+#sum{
+    background-color: blueviolet;
+    color: wheat;
+    border: none;
+    height: 30px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
