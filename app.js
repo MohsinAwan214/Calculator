@@ -18,8 +18,8 @@ from.addEventListener("submit", (event) => {
   for (let i = 0; i < matrix; i++) {
     for (let j = 0; j < matrix; j++) {
       
-      boxes1.innerHTML += `<input type="number"id="box1-${i}${j}"value="0"style="width: 40px;hight:30px;">`;
-      boxes2.innerHTML += `<input type="number"id="box2-${i}${j}"value="0"style="width: 40px;hight:30px;">`;
+      boxes1.innerHTML += `<input type="number"id="box1-${i}${j}"value="0"style="width: 25px;hight:20px;">`;
+      boxes2.innerHTML += `<input type="number"id="box2-${i}${j}"value="0"style="width: 25px;hight:20px;">`;
     }
     
     boxes1.innerHTML += "<br/>";
@@ -33,6 +33,12 @@ from.addEventListener("submit", (event) => {
 
 
 sum.addEventListener("click", (app) => {
+
+
+getSum()
+});
+
+let getSum = ()=>{
   result.innerHTML = ""
   for (let i = 0; i < matrix; i++) {
     for (let j = 0; j < matrix; j++) {
@@ -45,8 +51,7 @@ sum.addEventListener("click", (app) => {
 }
 result.innerHTML += '<br/>'
 }
-
-});
+}
 
 
 
