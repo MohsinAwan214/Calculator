@@ -1,6 +1,6 @@
 body{
-    background-color: rgb(29, 26, 43);
-    
+    background-color: rgb(0, 0, 0);
+
 }
 #matrix_A h2{
     margin-right: 50px; 
@@ -20,11 +20,19 @@ body{
 .container{
     text-align: center;
     position: relative;
-    top: 115px;
     color: white;
+    left: 300px;
+    box-shadow: 0px 0px 7px 0px rgb(255, 252, 252);
+    height: 500px;
+    width: 400px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(9, 12, 12);
     
     
 }
+
 
 #input_from input{
     border: none;
@@ -34,13 +42,24 @@ body{
     font-size: 20px;
     background-color: rgb(9, 12, 12);
     color: white;
+    position: relative;
+    border-bottom: 1px solid white;
+    top: 10px;
     
    
 }
 #input_from input:hover{
     box-shadow: 0px 0px 6px 0px white;
 }
-#sum{
+#sums{
     position: relative;
-    top: 10px;
+    top: 50px;
+}
+#sums button{
+    background-color: blueviolet;
+    border: none;
+    height: 30px;
+    margin: 3px;
+    color: wheat;
+    cursor: pointer;
 }
