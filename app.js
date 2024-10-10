@@ -29,6 +29,7 @@ from.addEventListener("submit", (event) => {
     
     
   }
+  event.target.reset()
 });
 
 
